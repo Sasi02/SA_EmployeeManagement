@@ -1,4 +1,4 @@
-package addemployee;
+package employee;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
@@ -17,10 +17,10 @@ public class Activator implements BundleActivator {
 	 */
 	public void start(BundleContext bundleContext) throws Exception {
 		Activator.context = bundleContext;
-		System.out.println("Starting Add Employee.....");
+		System.out.println("Starting Employee.....");
 		
 		
-		System.out.println("Started Add Employee!");
+		System.out.println("Started Employee!");
 	}
 
 	/*
@@ -29,7 +29,7 @@ public class Activator implements BundleActivator {
 	 */
 	public void stop(BundleContext bundleContext) throws Exception {
 		Activator.context = null;
-		System.out.println("Stopped Add Employee!");
+		System.out.println("Stopped Employee!");
 	}
 
 }

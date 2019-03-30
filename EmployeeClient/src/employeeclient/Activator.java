@@ -6,7 +6,7 @@ import java.util.Scanner;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
-import com.addemployee.object.Employee;
+import com.employee.object.Employee;
 
 public class Activator implements BundleActivator {
 

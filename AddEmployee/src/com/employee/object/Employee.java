@@ -1,4 +1,4 @@
-package com.addemployee.object;
+package com.employee.object;
 
 public class Employee {
 	private String firstName;
