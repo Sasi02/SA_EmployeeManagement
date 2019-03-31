@@ -5,8 +5,18 @@ public class Employee {
 	private String secondName;
 	private int age;
 	private double salary;
-	private String designation;
+	private String employeeType;
 	
+	public Employee() {}
+	
+	public Employee(String firstName, String secondName, int age, String employeeType) {
+		super();
+		this.firstName = firstName;
+		this.secondName = secondName;
+		this.age = age;
+		this.employeeType = employeeType;
+	}
+
 	public String getFirstName() {
 		return firstName;
 	}
@@ -19,6 +29,14 @@ public class Employee {
 		return secondName;
 	}
 	
+	public String getEmployeeType() {
+		return employeeType;
+	}
+
+	public void setEmployeeType(String employeeType) {
+		this.employeeType = employeeType;
+	}
+
 	public void setSecondName(String secondName) {
 		this.secondName = secondName;
 	}
@@ -37,15 +55,6 @@ public class Employee {
 	
 	public void setSalary(double salary) {
 		this.salary = salary;
-	}
-	
-	public String getDesignation() {
-		return designation;
-	}
-	
-	public void setDesignation(String designation) {
-		this.designation = designation;
-	}
-	
+	}	
 	
 }
